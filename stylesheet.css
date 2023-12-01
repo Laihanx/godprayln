@@ -1,0 +1,17 @@
+h1 {
+    color: #fc0505;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.img-godprayln {
+    display: block;
+    border-radius: 50%;
+    width: 100px; /* Adjust the width as needed */
+    margin-right: 20px;
+    margin-left: auto; /* Move the image to the left */
+    margin-top: 20px; /* Adjust the top margin as needed */
+    margin-bottom: 20px; /* Adjust the bottom margin as needed */
+}
+    

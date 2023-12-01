@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Godprays Webpage</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <!-- Add the Font Awesome CSS link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Center the <p> element */
+        p {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 18px; /* Increase paragraph font size */
+            color: white; /* Change paragraph color to white */
+            animation: fadeIn 1.5s; /* Add a fade-in animation */
+        }
+
+        /* Style the circular image */
+        .img-godprayln {
+            display: block; /* Make the image a block element */
+            margin: 0 auto; /* Center the image horizontally */
+            border-radius: 50%; /* Slightly reduce border-radius */
+            float: left; /* Float the image to the left */
+            margin-right: 20px; /* Add some spacing to the right of the image */
+        }
+
+        /* Style the contact information table */
+        .contact-info {
+            clear: both; /* Clear both floats to move below the floated elements */
+            text-align: center; /* Center the entire table horizontally */
+            animation: fadeIn 1.5s; /* Add a fade-in animation */
+        }
+
+        /* Center-align the content in contact information table cells */
+        .contact-info table td {
+            text-align: center; /* Center-align the content in table cells */
+            padding: 15px; /* Increase padding to control the spacing */
+            color: white; /* Change text color to white */
+        }
+
+        /* Enhance list items with Font Awesome icons */
+        ul li {
+            list-style: none; /* Remove default bullet points */
+            animation: fadeIn 2s; /* Add a fade-in animation with a slight delay */
+            cursor: pointer; /* Add a pointer cursor to list items */
+        }
+
+        ul li::before {
+            content: "\f058"; /* Use Font Awesome checkmark icon */
+            font-family: "Font Awesome 6 Free"; /* Specify the Font Awesome font */
+            font-weight: 900; /* Set the icon weight */
+            margin-right: 10px; /* Add spacing between icon and text */
+        }
+
+        /* Hover effect for list items */
+        ul li:hover {
+            color: orangered; /* Change the text color when hovering */
+        }
+
+        /* Remove the background color for "Godpray Nahial" */
+        h1:nth-of-type(2) {
+            background-color: transparent; /* Set the background to transparent */
+        }
+
+        /* Keyframes for the fade-in animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Background animations */
+        body {
+            animation: backgroundAnimation 10s linear infinite, backgroundGradient 20s linear infinite;
+            background: linear-gradient(45deg, #800000, #FFD700); /* Maroon and Yellow color scheme */
+        }
+
+        /* Keyframes for the first background animation (horizontal movement) */
+        @keyframes backgroundAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Keyframes for the second background animation (color gradient shift) */
+        @keyframes backgroundGradient {
+            0% {
+                background-size: 200% 200%;
+                background-image: linear-gradient(135deg, #800000, #FFD700); /* Maroon and Yellow color scheme */
+            }
+            25% {
+                background-size: 200% 200%;
+                background-image: linear-gradient(45deg, #800000, #FFD700); /* Maroon and Yellow color scheme */
+            }
+            50% {
+                background-size: 200% 200%;
+                background-image: linear-gradient(135deg, #800000, #FFD700); /* Maroon and Yellow color scheme */
+            }
+            75% {
+                background-size: 200% 200%;
+                background-image: linear-gradient(45deg, #800000, #FFD700); /* Maroon and Yellow color scheme */
+            }
+            100% {
+                background-size: 200% 200%;
+                background-image: linear-gradient(135deg, #800000, #FFD700); /* Maroon and Yellow color scheme */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 style="background-color: orangered; color: white;">Welcome to My Webpage</h1>
+
+    <hr>
+
+    <h1>Godpray L.Nahial</h1>
+    
+    <p style="font-size: 25px;">I'm 19 years old.</p>
+    
+    <img class="img-godprayln" src="godprayln.jpeg">
+    
+    <p style="font-size: 20px;">Choosing a Bachelor of Science in Information Technology (BSIT) as a Course: I've been interested in computers since I was a kid until now. Pursuing IT helps or gives me more knowledge and skills about computers. With this course, I will be a professional someday in the field of IT.</p>
+    
+    <ul>
+        <li>Learning:</li>
+        <li>Binary Language</li>
+        <li>C++ Language</li>
+        <li>Python Language</li>
+        <li>HyperText Markup Language (HTML)</li>
+        <li>Cascading Style Sheets (CSS)</li>
+    </ul>
+
+    <div class="contact-info">
+        <h2 style="color: white;">Contact Information:</h2>
+        <table style="margin: 0 auto;"> <!-- Center the table horizontally -->
+            <tr>
+                <td>
+                    Email:
+                    <br>
+                    <a target="_blank">Ngodpray@gmail.com</a> <i class="fas fa-envelope"></i>
+                    <br>
+                    <a href="https://accounts.google.com/v3/signin/identifier?hl=en-gb&ifkv=AVQVeyzBcuziVqAZPGxJ0jdBuExbhy2xICBSBZ_Ma7SehN6GQFWqQJO4rwZ99dHSGmKMqasiBBgdtg&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1275340798%3A1698480852569594&theme=glif" target="_blank">Gmail.com <i class="fas fa-external-link-alt"></i></a>
+                </td>
+                <td>
+                    Yahoo Mail:
+                    <br>
+                    <a target="_blank">Godpraynahial@yahoo.com</a> <i class="fas fa-envelope"></i>
+                    <br>
+                    <a href="https://login.yahoo.com/manage_account?pspid=159600001&activity=-mail-direct&.lang=en-PH&.intl=ph&src=ym&signin=true&done=https%3A%2F%2Fmail.yahoo.com%2Fd%2F&eid=100" target="_blank">Yahoo.com <i class="fas fa-external-link-alt"></i></a>
+                </td>
+                <td>
+                    Facebook:
+                    <br>
+                    <a target="_blank">Gopray Nahial</a>
+                    <br>
+                    <a href="https://www.facebook.com/yourprofile" target="_blank">facebook.com <i class="fab fa-facebook"></i></a>
+                </td>
+                <td>
+                    Contact Number:
+                    <br>
+                    09317521012
+                    <br>
+                    09504800898
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
